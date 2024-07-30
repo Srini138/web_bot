@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+
+    <div class="chatbox__image--header">
+        <img src="static/images/MM.png" alt="image">
+    </div>
+    <div class="chatbox__content--header">
+        <h4 class="chatbox__heading--header">Know More About Schneider India</h4>
+    </div>
+                <div class="close-icon">
+        <i class='bx bx-x'></i> <!-- Close icon -->
+    </div>
+</div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Type a message...">
+                <button class="chatbox__send--footer send__button">
+    <i class='bx bx-send'></i> <!-- Icon for sending message -->
+</button>
+
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button class="img-size"><img src="{{ url_for('static', filename='images/initbot.png') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

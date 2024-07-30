@@ -1,0 +1,254 @@
+2024-05-13 19:39:33 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 19:39:36 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 19:39:39 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 19:40:26 - quart_app - INFO - Response successfully generated.
+2024-05-13 19:42:08 - quart_app - INFO - Response successfully generated.
+2024-05-13 19:55:59 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 19:55:59 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 19:56:01 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 19:57:32 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 19:57:33 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 19:57:34 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 19:58:55 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 19:58:56 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 19:58:59 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:00:03 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:00:04 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:00:06 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:34:50 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:34:50 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:34:52 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:35:56 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:35:57 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:35:59 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:39:13 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:39:14 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:39:16 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:40:09 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:40:10 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:40:13 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:49:26 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:49:27 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:49:29 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:57:00 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:57:01 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:57:04 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 20:58:05 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 20:58:06 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 20:58:09 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:03:01 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:03:02 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:03:04 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:04:33 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:04:34 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:04:37 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:06:32 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:06:33 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:06:36 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:07:21 - quart_app - INFO - Response successfully generated.
+2024-05-13 21:15:30 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:15:30 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:15:31 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:16:02 - quart_app - INFO - Response successfully generated.
+2024-05-13 21:18:13 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:18:13 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:18:15 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:27:04 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:27:05 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:27:06 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:29:20 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:29:21 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:29:22 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:49:53 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:49:53 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:49:54 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:53:00 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:53:00 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:53:02 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:54:25 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:54:26 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:54:27 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 21:55:50 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 21:55:51 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 21:55:53 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:18:13 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 22:18:14 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 22:18:15 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:19:16 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 22:19:17 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 22:19:18 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:24:31 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 22:24:32 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 22:24:33 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:27:39 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 22:27:40 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 22:27:41 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:30:10 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 22:30:11 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 22:30:12 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:33:27 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 22:33:27 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 22:33:28 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:35:29 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-13 22:35:29 - quart_app - INFO - Vector store has been retrieved!
+2024-05-13 22:35:31 - quart_app - INFO - LLM Rails configured successfully
+2024-05-13 22:36:51 - quart_app - INFO - Response successfully generated.
+2024-05-13 22:38:27 - quart_app - INFO - Response successfully generated.
+2024-05-14 12:17:26 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-14 12:17:27 - quart_app - INFO - Vector store has been retrieved!
+2024-05-14 12:17:30 - quart_app - INFO - LLM Rails configured successfully
+2024-05-14 12:19:21 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:13:38 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-15 18:13:39 - quart_app - INFO - Vector store has been retrieved!
+2024-05-15 18:13:42 - quart_app - INFO - LLM Rails configured successfully
+2024-05-15 18:13:58 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:14:50 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:15:35 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:16:45 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-15 18:16:46 - quart_app - INFO - Vector store has been retrieved!
+2024-05-15 18:16:49 - quart_app - INFO - LLM Rails configured successfully
+2024-05-15 18:17:07 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:24:14 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-15 18:24:15 - quart_app - INFO - Vector store has been retrieved!
+2024-05-15 18:24:18 - quart_app - INFO - LLM Rails configured successfully
+2024-05-15 18:24:40 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:25:18 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-15 18:25:19 - quart_app - INFO - Vector store has been retrieved!
+2024-05-15 18:25:21 - quart_app - INFO - LLM Rails configured successfully
+2024-05-15 18:25:48 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:26:27 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:27:34 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:28:06 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:28:38 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:35:34 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-15 18:35:35 - quart_app - INFO - Vector store has been retrieved!
+2024-05-15 18:35:37 - quart_app - INFO - LLM Rails configured successfully
+2024-05-15 18:36:16 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:36:49 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:37:23 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-15 18:37:24 - quart_app - INFO - Vector store has been retrieved!
+2024-05-15 18:37:26 - quart_app - INFO - LLM Rails configured successfully
+2024-05-15 18:38:00 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:38:40 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:41:30 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:42:52 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:49:23 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:50:04 - quart_app - INFO - Response successfully generated.
+2024-05-15 18:51:18 - quart_app - INFO - Response successfully generated.
+2024-05-16 16:45:14 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-16 16:45:15 - quart_app - INFO - Vector store has been retrieved!
+2024-05-16 16:45:17 - quart_app - INFO - LLM Rails configured successfully
+2024-05-16 16:45:46 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:15:41 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-16 18:15:42 - quart_app - INFO - Vector store has been retrieved!
+2024-05-16 18:15:44 - quart_app - INFO - LLM Rails configured successfully
+2024-05-16 18:16:19 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:17:05 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:17:50 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:19:15 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:36:13 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:36:55 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:38:16 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:40:11 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:42:02 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:49:53 - quart_app - INFO - Response successfully generated.
+2024-05-16 18:51:25 - quart_app - INFO - Response successfully generated.
+2024-05-23 18:28:15 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-23 18:28:17 - quart_app - INFO - Vector store has been retrieved!
+2024-05-23 18:28:19 - quart_app - INFO - LLM Rails configured successfully
+2024-05-23 18:30:05 - quart_app - INFO - Response successfully generated.
+2024-05-23 18:30:29 - quart_app - INFO - Response successfully generated.
+2024-05-23 18:31:22 - quart_app - INFO - Response successfully generated.
+2024-05-23 18:32:15 - quart_app - INFO - Response successfully generated.
+2024-05-23 18:36:28 - quart_app - INFO - Response successfully generated.
+2024-05-23 21:25:15 - quart_app - INFO - Response successfully generated.
+2024-05-23 21:26:23 - quart_app - INFO - Response successfully generated.
+2024-05-23 21:27:38 - quart_app - INFO - Response successfully generated.
+2024-05-23 21:29:18 - quart_app - INFO - Response successfully generated.
+2024-05-23 21:30:01 - quart_app - INFO - Response successfully generated.
+2024-05-23 21:30:14 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:29:18 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-26 00:29:19 - quart_app - INFO - Vector store has been retrieved!
+2024-05-26 00:29:30 - quart_app - INFO - LLM Rails configured successfully
+2024-05-26 00:29:48 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:30:38 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-26 00:30:38 - quart_app - INFO - Vector store has been retrieved!
+2024-05-26 00:30:41 - quart_app - INFO - LLM Rails configured successfully
+2024-05-26 00:30:53 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-26 00:30:54 - quart_app - INFO - Vector store has been retrieved!
+2024-05-26 00:30:57 - quart_app - INFO - LLM Rails configured successfully
+2024-05-26 00:31:19 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:34:10 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-26 00:34:11 - quart_app - INFO - Vector store has been retrieved!
+2024-05-26 00:34:14 - quart_app - INFO - LLM Rails configured successfully
+2024-05-26 00:34:35 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:37:46 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-26 00:37:47 - quart_app - INFO - Vector store has been retrieved!
+2024-05-26 00:37:49 - quart_app - INFO - LLM Rails configured successfully
+2024-05-26 00:38:17 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:39:04 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:39:36 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:39:46 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:39:55 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:40:23 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:40:52 - quart_app - INFO - Response successfully generated.
+2024-05-26 00:41:10 - quart_app - INFO - Response successfully generated.
+2024-05-27 14:22:42 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-27 14:22:43 - quart_app - INFO - Vector store has been retrieved!
+2024-05-27 14:22:45 - quart_app - INFO - LLM Rails configured successfully
+2024-05-27 14:27:37 - quart_app - INFO - Response successfully generated.
+2024-05-27 14:28:36 - quart_app - INFO - Response successfully generated.
+2024-05-27 14:29:11 - quart_app - INFO - Response successfully generated.
+2024-05-27 14:29:29 - quart_app - INFO - Response successfully generated.
+2024-05-27 14:29:41 - quart_app - INFO - Response successfully generated.
+2024-05-28 15:59:54 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-28 15:59:55 - quart_app - INFO - Vector store has been retrieved!
+2024-05-28 15:59:56 - quart_app - INFO - LLM Rails configured successfully
+2024-05-28 16:07:09 - quart_app - INFO - Response successfully generated.
+2024-05-28 16:07:43 - quart_app - INFO - Response successfully generated.
+2024-05-28 16:07:52 - quart_app - INFO - Response successfully generated.
+2024-05-28 17:51:10 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-28 17:51:11 - quart_app - INFO - Vector store has been retrieved!
+2024-05-28 17:51:12 - quart_app - INFO - LLM Rails configured successfully
+2024-05-28 18:15:18 - quart_app - INFO - Response successfully generated.
+2024-05-28 18:16:05 - quart_app - INFO - Response successfully generated.
+2024-05-28 18:17:15 - quart_app - INFO - Response successfully generated.
+2024-05-28 18:18:00 - quart_app - INFO - Response successfully generated.
+2024-05-28 18:19:16 - quart_app - INFO - Response successfully generated.
+2024-05-28 18:20:21 - quart_app - INFO - Response successfully generated.
+2024-05-28 18:22:31 - quart_app - INFO - Response successfully generated.
+2024-05-28 21:07:54 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-28 21:07:55 - quart_app - INFO - Vector store has been retrieved!
+2024-05-28 21:07:58 - quart_app - INFO - LLM Rails configured successfully
+2024-05-28 21:14:17 - quart_app - INFO - Response successfully generated.
+2024-05-28 21:15:29 - quart_app - INFO - Response successfully generated.
+2024-05-28 21:16:11 - quart_app - INFO - Response successfully generated.
+2024-05-28 21:19:06 - quart_app - INFO - Response successfully generated.
+2024-05-28 21:20:15 - quart_app - INFO - Response successfully generated.
+2024-05-28 21:21:41 - quart_app - INFO - Response successfully generated.
+2024-05-28 21:25:47 - quart_app - INFO - Response successfully generated.
+2024-05-29 13:01:51 - quart_app - INFO - LLM and embedding models has been initialised
+2024-05-29 13:01:51 - quart_app - INFO - Vector store has been retrieved!
+2024-05-29 13:01:53 - quart_app - INFO - LLM Rails configured successfully
+2024-05-29 13:04:02 - quart_app - INFO - Response successfully generated.
+2024-05-29 13:04:20 - quart_app - INFO - Response successfully generated.
+2024-05-29 13:11:17 - quart_app - INFO - Response successfully generated.
+2024-05-29 13:12:16 - quart_app - INFO - Response successfully generated.
+2024-05-29 13:12:58 - quart_app - INFO - Response successfully generated.
+2024-05-29 13:15:00 - quart_app - INFO - Response successfully generated.
+2024-07-05 12:22:12 - quart_app - INFO - LLM and embedding models has been initialised
+2024-07-05 12:22:14 - quart_app - INFO - Vector store has been retrieved!
+2024-07-05 12:22:15 - quart_app - INFO - LLM Rails configured successfully
+2024-07-05 12:22:29 - quart_app - INFO - Response successfully generated.
+2024-07-05 12:24:14 - quart_app - INFO - LLM and embedding models has been initialised
+2024-07-05 12:24:14 - quart_app - INFO - Vector store has been retrieved!
+2024-07-05 12:24:15 - quart_app - INFO - LLM Rails configured successfully
+2024-07-05 12:24:27 - quart_app - INFO - Response successfully generated.
+2024-07-05 12:37:27 - quart_app - INFO - LLM and embedding models has been initialised
+2024-07-05 12:37:28 - quart_app - INFO - Vector store has been retrieved!
+2024-07-05 12:37:30 - quart_app - INFO - LLM Rails configured successfully
+2024-07-05 12:37:48 - quart_app - INFO - Response successfully generated.
+2024-07-05 12:39:53 - quart_app - INFO - LLM and embedding models has been initialised
+2024-07-05 12:39:53 - quart_app - INFO - Vector store has been retrieved!
+2024-07-05 12:39:54 - quart_app - INFO - LLM Rails configured successfully
+2024-07-05 12:40:19 - quart_app - INFO - Response successfully generated.
