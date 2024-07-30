@@ -17,6 +17,10 @@ app = Quart(__name__)
 cors(app)
 streaming_handler = StreamingHandler()
 
+# Declare app_llm and qa_chain as global variables
+global app_llm, qa_chain
+app_llm = None
+qa_chain = None
 
 async def startup():
     """
@@ -31,23 +35,25 @@ async def startup():
     except Exception as e:
         logger.error(f"Error during startup: {str(e)}")
 
-
-
 def generate_response(user_message):
     """
     Generate response for the given user message using LLMRails.
     """
+    global app_llm
+    if app_llm is None:
+        logger.error("app_llm is not initialized")
+        return "Error: System not ready. Please try again later.", []
+
     try:
         bot_message = app_llm.generate(messages=[{"role": "user", "content": user_message}])
         try:
             source = [i.metadata['source'] for i in bot_message['source_documents']]
         except:
             source = []
-        return bot_message['content'],source
+        return bot_message['content'], source
     except Exception as e:
         logger.error(f"Error in generating response: {str(e)}")
-        return "Error processing your request."
-
+        return "Error processing your request.", []
 
 @app.before_serving
 async def before_serving():
@@ -56,15 +62,12 @@ async def before_serving():
     """
     await startup()
 
-
 @app.route("/")
 async def main():
     """
     Render the main HTML page.
     """
     return await render_template("./base.html")
-
-
 
 @app.route('/get_response', methods=['POST'])
 async def bot_endpoint():
@@ -74,7 +77,7 @@ async def bot_endpoint():
     try:
         input_prompt = await request.json
         if 'message' in input_prompt:
-            bot_message,source_docs= generate_response(input_prompt['message'])
+            bot_message, source_docs = generate_response(input_prompt['message'])
             logger.info("Response successfully generated.")
             return jsonify({"response": bot_message, "source_docs": source_docs})
         else:
