@@ -18,7 +18,6 @@ cors(app)
 streaming_handler = StreamingHandler()
 
 # Declare app_llm and qa_chain as global variables
-global app_llm, qa_chain
 app_llm = None
 qa_chain = None
 
