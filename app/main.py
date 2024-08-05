@@ -1,4 +1,3 @@
-
 from quart import request, jsonify, render_template, Quart
 from quart_cors import cors
 from app.utils import initialize_components
@@ -54,13 +53,6 @@ def generate_response(user_message):
         logger.error(f"Error in generating response: {str(e)}")
         return "Error processing your request.", []
 
-@app.before_serving
-async def before_serving():
-    """
-    Perform startup tasks before serving requests.
-    """
-    await startup()
-
 @app.route("/")
 async def main():
     """
@@ -86,7 +78,11 @@ async def bot_endpoint():
         logger.exception("Failed to fetch or generate response")
         return jsonify({"response": "Failed to process request"})
 
-
 if __name__ == "__main__":
+    # Run the startup initialization
+    import asyncio
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(startup())
+    
     # Run the Quart app in debug mode
-    app.run(host="0.0.0.0", port=5000,debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
