@@ -4,6 +4,8 @@ from app.utils import initialize_components
 from app.rails import MyRails
 import nest_asyncio
 from nemoguardrails.streaming import StreamingHandler
+import asyncio
+
 nest_asyncio.apply()
 
 # Configure logger
@@ -11,7 +13,6 @@ from app.logger import get_logger
 logger = get_logger()
 
 app = Quart(__name__)
-
 # Enable CORS for all routes
 cors(app)
 streaming_handler = StreamingHandler()
@@ -19,8 +20,9 @@ streaming_handler = StreamingHandler()
 # Declare app_llm and qa_chain as global variables
 app_llm = None
 qa_chain = None
+is_initialized = asyncio.Event()
 
-async def startup():
+async def initialize_app():
     """
     Initialize components required for the application.
     """
@@ -30,18 +32,26 @@ async def startup():
         app_llm = MyRails(config, llm=llm)
         app_llm.register_action(qa_chain, name="qa_chain")
         logger.info("LLM Rails configured successfully")
+        is_initialized.set()
     except Exception as e:
-        logger.error(f"Error during startup: {str(e)}")
+        logger.error(f"Error during initialization: {str(e)}")
 
-def generate_response(user_message):
+@app.before_serving
+async def before_serving():
+    """
+    Start the initialization process in the background.
+    """
+    asyncio.create_task(initialize_app())
+
+async def generate_response(user_message):
     """
     Generate response for the given user message using LLMRails.
     """
     global app_llm
+    await is_initialized.wait()
     if app_llm is None:
         logger.error("app_llm is not initialized")
         return "Error: System not ready. Please try again later.", []
-
     try:
         bot_message = app_llm.generate(messages=[{"role": "user", "content": user_message}])
         try:
@@ -68,7 +78,7 @@ async def bot_endpoint():
     try:
         input_prompt = await request.json
         if 'message' in input_prompt:
-            bot_message, source_docs = generate_response(input_prompt['message'])
+            bot_message, source_docs = await generate_response(input_prompt['message'])
             logger.info("Response successfully generated.")
             return jsonify({"response": bot_message, "source_docs": source_docs})
         else:
@@ -79,10 +89,5 @@ async def bot_endpoint():
         return jsonify({"response": "Failed to process request"})
 
 if __name__ == "__main__":
-    # Run the startup initialization
-    import asyncio
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(startup())
-    
     # Run the Quart app in debug mode
     app.run(host="0.0.0.0", port=5000, debug=True)
