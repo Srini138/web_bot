@@ -1,10 +1,10 @@
+
 from quart import request, jsonify, render_template, Quart
 from quart_cors import cors
 from app.utils import initialize_components
 from app.rails import MyRails
 import nest_asyncio
 from nemoguardrails.streaming import StreamingHandler
-
 nest_asyncio.apply()
 
 # Configure logger
@@ -27,15 +27,12 @@ async def startup():
     """
     global app_llm, qa_chain
     try:
-        logger.info("Starting initialization of components...")
         config, llm, qa_chain = await initialize_components()
         app_llm = MyRails(config, llm=llm)
         app_llm.register_action(qa_chain, name="qa_chain")
         logger.info("LLM Rails configured successfully")
     except Exception as e:
         logger.error(f"Error during startup: {str(e)}")
-        app_llm = None
-        qa_chain = None
 
 def generate_response(user_message):
     """
@@ -63,8 +60,6 @@ async def before_serving():
     Perform startup tasks before serving requests.
     """
     await startup()
-    if app_llm is None:
-        logger.error("Failed to initialize app_llm")
 
 @app.route("/")
 async def main():
@@ -78,10 +73,6 @@ async def bot_endpoint():
     """
     Endpoint to receive user messages and return bot responses.
     """
-    if app_llm is None:
-        logger.error("app_llm is not initialized")
-        return jsonify({"response": "Error: System not ready. Please try again later."})
-
     try:
         input_prompt = await request.json
         if 'message' in input_prompt:
@@ -98,4 +89,4 @@ async def bot_endpoint():
 
 if __name__ == "__main__":
     # Run the Quart app in debug mode
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000,debug=True)
